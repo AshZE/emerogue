@@ -676,12 +676,12 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 
     [SPECIES_GUMSHOOS] =
     {
-        .baseHP        = 88,
-        .baseAttack    = 110,
-        .baseDefense   = 60,
+        .baseHP        = 108,
+        .baseAttack    = 115,
+        .baseDefense   = 80,
         .baseSpeed     = 45,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 60,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 77,
         .types = { TYPE_NORMAL, TYPE_NORMAL },
         .catchRate = 127,
         .expYield = 146,

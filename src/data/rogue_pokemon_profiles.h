@@ -213592,6 +213592,7 @@ static struct LevelUpMove const sLevelUpMoves_SPECIES_YUNGOOS[] =
 {
 	{ .move=MOVE_TACKLE, .level=1 },
 	{ .move=MOVE_LEER, .level=3 },
+	{ .move=MOVE_QUICK_ATTACK, .level=5 },
 	{ .move=MOVE_PAYBACK, .level=7 },
 	{ .move=MOVE_SAND_ATTACK, .level=10 },
 	{ .move=MOVE_WORK_UP, .level=13 },
@@ -213684,6 +213685,7 @@ static struct LevelUpMove const sLevelUpMoves_SPECIES_GUMSHOOS[] =
 	{ .move=MOVE_TACKLE, .level=1 },
 	{ .move=MOVE_LEER, .level=1 },
 	{ .move=MOVE_PAYBACK, .level=1 },
+	{ .move=MOVE_QUICK_ATTACK, .level=1 },
 	{ .move=MOVE_WORK_UP, .level=13 },
 	{ .move=MOVE_BITE, .level=19 },
 	{ .move=MOVE_MUD_SLAP, .level=23 },
