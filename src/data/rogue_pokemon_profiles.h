@@ -214411,6 +214411,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRABRAWL
 static struct LevelUpMove const sLevelUpMoves_SPECIES_CRABOMINABLE[] = 
 {
 	{ .move=MOVE_ICE_PUNCH, .level=0 },
+	{ .move=MOVE_MACH_PUNCH, .level=0 },
 	{ .move=MOVE_LEER, .level=1 },
 	{ .move=MOVE_PROTECT, .level=1 },
 	{ .move=MOVE_ROCK_SMASH, .level=1 },
@@ -214420,6 +214421,7 @@ static struct LevelUpMove const sLevelUpMoves_SPECIES_CRABOMINABLE[] =
 	{ .move=MOVE_AVALANCHE, .level=29 },
 	{ .move=MOVE_REVERSAL, .level=33 },
 	{ .move=MOVE_ICE_HAMMER, .level=37 },
+	{ .move=MOVE_ICE_SHARD, .level=40 },
 	{ .move=MOVE_IRON_DEFENSE, .level=42 },
 	{ .move=MOVE_DYNAMIC_PUNCH, .level=45 },
 	{ .move=MOVE_CLOSE_COMBAT, .level=49 },
@@ -214505,7 +214507,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRABOMIN
 	{
 		.flags= (0 | MON_FLAGS_GEN7PU),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_IRON_FIST,
+		.ability=ABILITY_FUR_COAT,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_NONE,
 		.nature=NATURE_CAREFUL,
@@ -214550,7 +214552,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRABOMIN
 	{
 		.flags= (0 | MON_FLAGS_GEN7BATTLESPOTDOUBLES),
 		.heldItem=ITEM_LUM_BERRY,
-		.ability=ABILITY_ANGER_POINT,
+		.ability=ABILITY_FUR_COAT,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_NONE,
 		.nature=NATURE_SASSY,
@@ -214565,7 +214567,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRABOMIN
 	{
 		.flags= (0 | MON_FLAGS_GEN9NU),
 		.heldItem=ITEM_ASSAULT_VEST,
-		.ability=ABILITY_IRON_FIST,
+		.ability=ABILITY_FUR_COAT,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FAIRY,
 		.nature=NATURE_ADAMANT,
@@ -214580,7 +214582,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRABOMIN
 	{
 		.flags= (0 | MON_FLAGS_GEN9PU),
 		.heldItem=ITEM_ASSAULT_VEST,
-		.ability=ABILITY_IRON_FIST,
+		.ability=ABILITY_FUR_COAT,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_NONE,
 		.nature=NATURE_ADAMANT,
