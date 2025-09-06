@@ -261937,7 +261937,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STUNFISK
 		{
 			.flags = (0 | MON_FLAGS_GEN8PU),
 			.heldItem = ITEM_LEFTOVERS,
-			.ability = ABILITY_CLAMPDOWN
+			.ability = ABILITY_CLAMPDOWN,
 			.hiddenPowerType = TYPE_NONE,
 			.teraType = TYPE_NONE,
 			.nature = NATURE_CAREFUL,
@@ -261952,7 +261952,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STUNFISK
 		{
 			.flags = (0 | MON_FLAGS_GEN8ZU),
 			.heldItem = ITEM_LEFTOVERS,
-			.ability = ABILITY_CLAMPDOWN
+			.ability = ABILITY_CLAMPDOWN,
 			.hiddenPowerType = TYPE_NONE,
 			.teraType = TYPE_NONE,
 			.nature = NATURE_CAREFUL,
