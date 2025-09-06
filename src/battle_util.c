@@ -915,8 +915,7 @@ static const u8 sAbilitiesAffectedByMoldBreaker[] =
         [ABILITY_FLASH_FIRE] = 1,
         [ABILITY_FLOWER_GIFT] = 1,
         [ABILITY_HEATPROOF] = 1,
-        ty
-            [ABILITY_HYPER_CUTTER] = 1,
+        [ABILITY_HYPER_CUTTER] = 1,
         [ABILITY_IMMUNITY] = 1,
         [ABILITY_INNER_FOCUS] = 1,
         [ABILITY_INSOMNIA] = 1,

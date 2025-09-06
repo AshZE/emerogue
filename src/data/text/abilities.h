@@ -302,7 +302,8 @@ static const u8 sTeraShiftDescription[] = _("Terasteralizes upon entry.");
 static const u8 sTeraShellDescription[] = _("Resistant to types at full HP.");
 static const u8 sTeraformZeroDescription[] = _("Removes weather and terrain.");
 static const u8 sPoisonPuppeteerDescription[] = _("Confuses poisoned foes.");
-static const u8 sClampdownDescription[] = _("Powers up binding moves.") static const u8 sForecastPriorityDescription[] = _("Weather moves go first.");
+static const u8 sClampdownDescription[] = _("Powers up binding moves.");
+static const u8 sForecastPriorityDescription[] = _("Weather moves go first.");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
