@@ -177932,6 +177932,7 @@ static struct LevelUpMove const sLevelUpMoves_SPECIES_STUNFISK[] =
 		{.move = MOVE_SUCKER_PUNCH, .level = 25},
 		{.move = MOVE_ELECTRIC_TERRAIN, .level = 30},
 		{.move = MOVE_PARABOLIC_CHARGE .level = 30},
+		{.move = MOVE_RECOVER .level = 30},
 		{.move = MOVE_BOUNCE, .level = 35},
 		{.move = MOVE_MUDDY_WATER, .level = 40},
 		{.move = MOVE_DISCHARGE, .level = 45},
